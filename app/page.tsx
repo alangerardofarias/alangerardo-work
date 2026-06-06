@@ -1,3 +1,5 @@
+import FadeIn from "@/components/FadeIn";
+
 export default function Home() {
   return (
     <main className="relative bg-[#F7F5F2] text-[#111111] min-h-screen">
@@ -59,7 +61,8 @@ export default function Home() {
       </section>
 
       {/* Why clarity matters */}
-      <section id="why" className="max-w-4xl mx-auto px-8 md:px-16 py-32">
+      <FadeIn>
+        <section id="why" className="max-w-4xl mx-auto px-8 md:px-16 py-32">
           <h2 className="text-4xl md:text-5xl font-medium tracking-tight mb-12">
             Why clarity matters
           </h2>
@@ -76,8 +79,10 @@ export default function Home() {
             Clarity creates alignment. Alignment enables action.
           </p>
         </section>
+      </FadeIn>
 
-      <section className="max-w-6xl mx-auto px-8 md:px-16 py-40">
+      <FadeIn>
+        <section className="max-w-6xl mx-auto px-8 md:px-16 py-40">
           <h2 className="text-4xl md:text-5xl font-medium tracking-tight mb-24">
             How I Think
           </h2>
@@ -105,6 +110,7 @@ export default function Home() {
             ))}
           </div>
         </section>
+      </FadeIn>
 
       {/* Areas of focus */}
       <section className="max-w-6xl mx-auto px-8 md:px-16 py-32">
@@ -210,6 +216,7 @@ export default function Home() {
       </section>
 
       {/* About */}
+      <FadeIn>
         <section id="about" className="max-w-4xl mx-auto px-8 md:px-16 py-32">
           <h2 className="text-4xl md:text-5xl font-medium tracking-tight mb-12">
             About
@@ -234,6 +241,7 @@ export default function Home() {
             and emerging technology.
           </p>
         </section>
+      </FadeIn>
 
       {/* Contact */}
       <section
