@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </nav>
       {/* Hero */}
-      <section className="max-w-6xl mx-auto px-8 md:px-16 pt-40 pb-32">
+      <section className="max-w-6xl mx-auto px-8 md:px-16 pt-40 pb-24">
         <h1 className="text-4xl md:text-[8rem] font-medium tracking-tight leading-[0.95] max-w-5xl">
           Designing clarity
           <br />
@@ -60,34 +60,15 @@ export default function Home() {
         <div className="h-px bg-linear-to-r from-transparent via-[#7A7F6B]/30 to-transparent" />
       </section>
 
-      {/* Why clarity matters */}
-      <FadeIn>
-        <section id="why" className="max-w-4xl mx-auto px-8 md:px-16 py-32">
-          <h2 className="text-4xl md:text-5xl font-medium tracking-tight mb-12">
-            Why clarity matters
-          </h2>
-
-          <p className="text-xl leading-relaxed text-black/70">
-            Organizations today operate in environments shaped by accelerating
-            technology, competing priorities, and increasing uncertainty.
-            <br />
-            <br />
-            Most challenges aren't caused by a lack of talent.
-            They're caused by a lack of clarity.
-            <br />
-            <br />
-            Clarity creates alignment. Alignment enables action.
-          </p>
-        </section>
-      </FadeIn>
+      {/* Why clarity matters (removed) */}
 
       <FadeIn>
-        <section className="max-w-6xl mx-auto px-8 md:px-16 py-40">
+        <section className="max-w-6xl mx-auto px-8 md:px-16 py-24">
           <h2 className="text-4xl md:text-5xl font-medium tracking-tight mb-24">
             How I Think
           </h2>
 
-          <div className="space-y-16">
+          <div className="space-y-14">
             {[
               "Clarity over complexity.",
               "Systems over heroics.",
@@ -97,13 +78,13 @@ export default function Home() {
             ].map((principle, index) => (
               <div
                 key={principle}
-                className="flex items-start gap-8 border-b border-black/10 pb-12"
+                className="flex items-start gap-10 border-b border-black/10 pb-8"
               >
                 <span className="text-[#7A7F6B] text-xl md:text-2xl font-medium">
                   0{index + 1}
                 </span>
 
-                <p className="text-3xl md:text-5xl leading-tight tracking-tight font-medium">
+                <p className="whitespace-pre-line text-3xl md:text-6xl leading-[0.95] tracking-tight font-medium max-2xl">            
                   {principle}
                 </p>
               </div>
@@ -113,7 +94,7 @@ export default function Home() {
       </FadeIn>
 
       {/* Areas of focus */}
-      <section className="max-w-6xl mx-auto px-8 md:px-16 py-32">
+      <section className="max-w-6xl mx-auto px-8 md:px-16 py-24">
         <h2 className="text-4xl md:text-5xl font-medium tracking-tight mb-20">
           Areas of focus
         </h2>
@@ -158,7 +139,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-8 md:px-16 py-48">
+      <section className="max-w-5xl mx-auto px-8 md:px-16 py-24">
         <p className="text-5xl md:text-7xl leading-tight tracking-tight font-medium">
           Clarity is not simplicity.
           <br />
@@ -205,7 +186,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-8 md:px-16 py-56">
+      <section className="max-w-5xl mx-auto px-8 md:px-16 py-24">
         <p className="text-5xl md:text-7xl leading-tight tracking-tight font-medium">
           The goal isn't simplicity.
           <br />
