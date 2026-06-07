@@ -27,3 +27,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans);
 }
+
+.font-instrument {
+  font-family: "Instrument", Georgia, Cambria, "Times New Roman", serif;
+}
